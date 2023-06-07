@@ -2,7 +2,8 @@
 
 
     include('dbh.inc.php');
-    if(isset($_POST['submit'])){
+    // if(isset($_POST["submit"])){//submit and name都可以
+    if(isset($_POST["submit"])){
     $first=$_POST["first"];
     $last=$_POST["last"];
     $email=$_POST["email"];
