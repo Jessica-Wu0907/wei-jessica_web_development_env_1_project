@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-content{
+  margin-bottom: 30px;
+  margin: 0%;
+  padding: 0%;
+  width:100%;
+}
+
+.menu-set{
+  padding: 40px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-left{
+    width: 30%;
+}
+
+.menu-bar{
+  display: none;
+}
+
+.menu-left h2{
+  padding-left: 80px;
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.left .arrow{
+  margin-top: 30px;
+  display: inline-flex;
+}
+
+.left .arrow i{
+  background: #0289ff;
+  padding: 15px 30px;
+/* margin-right: 20px; */
+
+}
+
+.menu-right{
+    width:70%;
+}
+
+.menu-search {
+    height: 700px;
+    background: url('/assets/img/photo1jpg.jpg')rgba(41, 39, 39, 0.6);;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+
+  .menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-left: 270px;
+    color: #333;
+}
+
+
+ .menu-content ul {
+    list-style: none;
+    padding: 0;
+  }
+
+ .menu-content li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+ .menu-content a {
+    color: #d6cbcb;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+
+  .menu-content a:hover {
+    color: yellow;
+}
+
+ .menu-content a.active {
+    color: #f2f6fa;
+  }
+
+  .menu-content a.active1 {
+    color: #afb6bd;
+  }
+
+  .search {
+    padding: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+  }
+
+  .search .title {
+    font-size: 38px;
+    color: white;
+    /* margin-top: 50px; */
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom:10px;
+  }
+
+ .search p{
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 16px;
+  letter-spacing: -1px;
+
+ }
+
+ .search  form{
+  display: flex;
+  justify-content: center;
+  gap: 0px; 
+ }
+
+  .search  form input[type="text"] {
+    padding: 14px;
+    width: 500px;
+    border: none;
+    color: #d1b7b7;
+    padding-left: 15px;
+    letter-spacing: 2px;
+    margin: 0%;
+    outline: none;/*Remove the border inside the input box*/
+  }
+
+  .search input[type="submit"] {
+    padding: 14px 30px;
+    background-color: #2c7bc0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  #images {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #images img {
+    width: 200px;
+    margin: 10px;
+  }
+
+  .imagesLocationSet{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+  }
+
+  .imagesLocation{
+    /* max-width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+  }
+
+  .imagesLocation h4{
+    color: #f9f9fa;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .imagesLocation-img{
+    width: 300px;
+    height:200px;
+    /* position: relative; */
+    /* margin-top: -50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .img1{
+    background: url(/assets/img/bench.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imagesLocation .img .img1-icon{
+    height: 10px;
+    width: 10px;
+  }
+
+  .img2{
+    background: url(/assets/img/croatia.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img3{
+    background: url(/assets/img/desert-Morocco.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content{
+     /* margin-left: auto;
+     margin-right: auto; */
+    padding-top: 150px;
+
+  }
+
+  .content-container{
+    max-width: 1000px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .content-page1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 500px;
+  }
+
+  .content-page1 h3{
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+
+  .content-page1 p{
+    /* width: 90%; */
+    color: #afb6bd;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    line-height: 26px;
+
+  }
+
+  .slide{
+    /* max-width: 1000px;
+    width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+
+  .products-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .card-product{
+    width: calc((100% - 50px) / 6);
+  }
+
+  .card-product .bg-image1{
+    background-image: url(/assets/img/croatia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  .card-product .bg-image2{
+    background-image: url(/assets/img/bench.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  .card-product .bg-image3{
+    background-image: url(/assets/img/desert-Morocco.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  .card-product .bg-image4{
+    background: url(/assets/img/great\ wall.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  .card-product .bg-image5{
+    background: url(/assets/img/Eiffel\ Tower.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  .card-product .bg-image6{
+    background: url(/assets/img/Opera-House.webp);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  .card-product .info{
+    padding: 15px;
+    text-align: center;
+    background: white;
+  }
+
+  .card-product h1 {
+    color: #4a4949;
+    font-size: 16px;
+    font-weight: 400;
+    /* overflow-wrap: break-word; */
+    word-wrap: break-word;
+    /* hyphens: auto; */
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .card-product a {
+    font-size: 12px;
+    font-weight: 200;
+    word-wrap: break-word;
+    margin: 0;
+    text-decoration: none;
+    color: #afb6bd;
+  }
+
+  .bg-sta{
+    background:url(/assets/img/8.png)rgba(255, 255, 255, 10%);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .page2{
+    text-align: center;
+	  max-width: 650px;
+}
+
+.page2 h3{
+	color: #f7f2f2;
+	font-size: 36px;
+  font-weight: 500;
+	margin-bottom: 20px;
+	letter-spacing: -1px;
+}
+
+.page2 p{
+  color: #f7f1f1;
+  margin-bottom: 30px;
+}
+
+.btn2{
+	display: inline-block;
+	background: rgb(31, 30, 30);
+	color: white;
+	padding: 12px 22px;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+.btn2:hover{
+	background-color: #a9b785;
+    color: white;
+}
+
+.about{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  max-width: 1000px;
+  width: 90%;
+	padding: 80px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-flex{
+	color: #070707;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+  gap:25px;
+}
+
+.left{
+  max-width: 30%;
+}
+
+.left h3{
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.2em;
+	letter-spacing: 0.1rem;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.left p{
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #625d5d;
+}
+
+.right{
+	max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+}
+
+.right h4{
+    color: #f9f9fa;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+.right-img{
+    width: 180px;
+    height:220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+  .img4{
+    background: url(/assets/img/bench.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img5{
+    background: url(/assets/img/croatia.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img6{
+    background: url(/assets/img/desert-Morocco.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+.footer-page{
+  background: #eef0f1;
+  text-align: left;
+  padding: 80px 0px;
+}
+
+.footer-page-set{
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-page-set p{
+  text-align: center;
+}
+
+.footer-page-content{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  gap:40px;
+} 
+
+.footer-part1{
+  width: 40%;
+}
+
+.footer-part2{
+  width: 10%;
+}
+
+.footer-part3{
+  width: 40%;
+}
+
+.footer-part4{
+  width: 10%;
+}
+
+.active2{
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.footer-page .footer-page-set .footer-page-content ul{
+  list-style: none;
+  padding: 0;
+}
+
+.footer-page .footer-page-set .footer-page-content ul li{
+  margin-bottom: 20px;
+}
+
+.footer-page .footer-page-set .footer-page-content ul li:nth-child(n+2){
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.footer-menu1 li:nth-child(n+3){
+  color: #afb6bd;
+}
+
+.footer-p{
+  margin-top: 30px;
+  color: #afb6bd;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.footer-menu3 li:nth-child(n+2) {
+  color:#afb6bd;
+  line-height: 25px;
+}
+
+.footer-menu3 li:nth-child(n+2) a {
+  color: rgb(10, 10, 10);
+}
+
+.footer-menu4-li{
+  text-align: center;
+}
+
+.footer-menu4-li i{
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 992px) {
+	section{
+		padding: 60px 0;
+	}
+  .footer-menu4-li i{
+    margin-right: 3px;
+  }
+    .footer-part1{
+      width: 35%;
+    }
+  
+    .footer-part2{
+      width: 15%;
+    }
+  
+    .footer-part3{
+      width: 35%;
+    }
+  
+    .footer-part4{
+      width: 15%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+	section{
+		padding: 40px 0;
+	}
+
+  .left .arrow i{
+    padding: 15px 20px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+	section{
+		padding: 20px 0;
+	}
+
+  .menu-set{
+    justify-content: space-between;
+  }
+
+  .menu-bar{
+    display: block;
+  }
+
+  .menu-left h2{
+    padding-left: 10px;
+
+    font-size: 20px;
+  }
+
+  .menu-right{
+    width: 100%;
+  }
+
+  .menu-right{
+    display: none;
+  }
+
+  .search{
+    padding: 100px;  
+  }
+
+  .search .title {
+    font-size: 18px;
+  }
+
+  .search  form input[type="text"] {
+    width: 200px;
+  }
+
+  .search input[type="submit"] {
+    padding: 12px 20px;
+
+  }
+
+  .search p{
+    font-size: 12px;
+   }
+
+   .slide{
+    margin-top: 30px;
+  }
+
+   .products-flex{
+    flex-direction: column;
+  }
+
+   .card-product{
+    width: 100%;
+   }
+
+   .container{
+    padding: 20px 0px;
+  }
+
+  .product-flex{
+    flex-direction: column-reverse;
+  }
+
+  .left{
+    max-width: 100%;
+    text-align: center;  }
+
+  .right{
+    width: 100%;
+    justify-content: center;
+
+  }
+  .left h3{
+    font-size: 20px;
+    line-height: 1em;
+  }
+
+  .left p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #625d5d;
+  }
+
+  .footer-page-content{
+    flex-direction: column;
+  }
+  .footer-part1{
+    width: 100%;
+  }
+
+  .footer-part2{
+    width: 100%;
+  }
+
+  .footer-part3{
+    width: 100%;
+  }
+
+  .footer-part4{
+    width: 100%;
+  }
+}
